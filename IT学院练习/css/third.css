@@ -1,23 +1,23 @@
 body {
     background: #68cdd5;
 }
-#backbtn {
+.backbtn {
     padding-left: 1%;
 }
-#logo {
+.logo {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
 }
-#content {
+.content {
     font-size: 14px;
     color: white;
     margin-left: 10%;
     margin-right: 10%;
 }
-#link{
+.link{
     margin-top: 80px;
     margin-left: 10%;
     margin-right: 10%;
