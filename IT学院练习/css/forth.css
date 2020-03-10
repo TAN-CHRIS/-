@@ -1,0 +1,85 @@
+body{
+    font-family: SimHei;
+    background: #eff0f4;
+}
+
+header{
+    background: #5fc0cd;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+header div{
+    display: inline-block;
+}
+#title {
+    /* float: left; */
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    text-align: center;
+    font-weight: bold;
+}
+#logins {
+    position: absolute;
+    left: 5px;
+}
+#close {
+    position: absolute;
+    right: 5px;
+}
+#login {
+    background: #5fc0cd;
+    height: 45px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+a{
+    color: #5fc0cd;
+    font-size: 12px;
+}
+.right{
+    text-align: right;
+    margin: 0px;
+}
+input{
+    border: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    color: #e1e5e7;
+}
+input::-moz-input-placeholder{
+    color: #e1e5e7;
+}
+input::-ms-input-placeholder{
+    color: #e1e5e7;
+}
+.icon{
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+.icon img{
+    width: 0.8em;
+}
+.info {
+    background: white;
+    line-height: 3em;
+    margin: 0;
+    margin-top: 5px;
+}
+label {
+    display: inline-block;
+    text-align: center;
+    width: 4em;
+}
